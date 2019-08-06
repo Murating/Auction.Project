@@ -1,0 +1,321 @@
+﻿<Window x:Class="ProjectApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectApp"
+        xmlns:viewmodel="clr-namespace:ProjectApp.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="700">
+    <Window.DataContext>
+        <viewmodel:LotInfoViewModel></viewmodel:LotInfoViewModel>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <GroupBox Grid.Row="0" Grid.Column="0" Header="Сортировать">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <RadioButton GroupName="sort" Grid.Column="0" 
+                                 Content="Стартовая цена" 
+                                 IsChecked="{Binding flag1,Mode=TwoWay}"
+                                 Margin="5 5 5 1"
+                                 FontSize="16">
+                    </RadioButton>
+                    <RadioButton GroupName="sort" Grid.Column="0" 
+                                 Content="Наименование лота" 
+                                 IsChecked="{Binding flag2,Mode=TwoWay}"
+                                 Margin="5,1,0,1"
+                                 FontSize="16">
+                    </RadioButton>
+                    <RadioButton GroupName="sort" 
+                                 Grid.Column="0" 
+                                 Content="Категория" IsChecked="{Binding flag3,Mode=TwoWay}"
+                                  Margin="5 1 5 1"
+                                 FontSize="16">
+                    </RadioButton>
+                </StackPanel>
+                <Button Content="Сортировать"
+                        Grid.Column="1" 
+                        Command="{Binding СommandSortLots}"
+                        Style="{StaticResource ButtonStyle2}"
+                        Height="30"
+                        Width="80"
+                        VerticalAlignment="Bottom"
+                        HorizontalAlignment="Right"
+                        Margin="5">
+                </Button>
+            </Grid>
+        </GroupBox>
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <GroupBox Header="Поиск">
+                <Grid Margin="0,0,-12,0">
+                    <TextBox
+                             Text="{Binding SearchStr, Mode=OneWayToSource}"
+                             Style="{StaticResource TextBoxStyle1}"
+                             FontSize="16"
+                             Height="30"
+                             VerticalAlignment="Top"
+                             Margin="5 5 5 5">
+                    </TextBox>
+                <Button Height="30" Width="70"    
+                     Style="{StaticResource SearchButtonStyle}"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Bottom"
+                     Margin="15 5 5 5"
+                     Command="{Binding СommandSearchLot}">
+                </Button>
+                </Grid>
+            </GroupBox>
+        </Grid>
+
+        <ListBox Grid.Column="0" Grid.Row="1" 
+                 ItemsSource="{Binding Lots, UpdateSourceTrigger=PropertyChanged}" 
+                 SelectedItem="{Binding SelectedLot}" 
+                 Margin="10,0,10,20"
+                 BorderBrush="Black"
+                 BorderThickness="2"
+                 >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <WrapPanel>
+                            <TextBlock Text="ID" Margin="2 2 5 2" 
+                                       Style="{StaticResource TextBlokStyle1}"></TextBlock>
+                            <TextBlock Text="{Binding Path=ID}" Margin="2 2 5 2"
+                                       Style="{StaticResource TextBlokStyle1}"
+                                       Foreground="#717171"></TextBlock>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <TextBlock Text="Название лота" Margin="2 2 5 2"
+                                        Style="{StaticResource TextBlokStyle1}"></TextBlock>
+                            <TextBlock Text="{Binding Path=Name}" Margin="2 2 5 2"
+                                       Style="{StaticResource TextBlokStyle1}"
+                                       Foreground="#717171"></TextBlock>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <TextBlock Text="Категория" Margin="2 2 5 2"
+                                        Style="{StaticResource TextBlokStyle1}"></TextBlock>
+                            <TextBlock Text="{Binding Path=Category}" Margin="2 2 5 2"
+                                       Style="{StaticResource TextBlokStyle1}"
+                                       Foreground="#717171"></TextBlock>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <TextBlock Text="Стартовая цена" Margin="2 2 5 2"
+                                        Style="{StaticResource TextBlokStyle1}"></TextBlock>
+                            <TextBlock Text="{Binding Path=StartPrice}" Margin="2 2 5 2"
+                                       Style="{StaticResource TextBlokStyle1}"
+                                       Foreground="#717171"></TextBlock>
+                        </WrapPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Border Grid.Column="1" Grid.Row="1" Margin="10" BorderBrush="Black" BorderThickness="1">
+            <ScrollViewer Grid.Column="1" Grid.Row="1" 
+                      VerticalScrollBarVisibility="Auto" 
+                      
+                      >
+            <Grid Height="464">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Grid.Column="0" Grid.RowSpan="4" Margin="10">
+                <Border BorderBrush="Gray" BorderThickness="1">
+                    <Image Source="{Binding Path=SelectedLot.LotImage}"></Image>
+                </Border>
+            </Grid>
+
+            <StackPanel Grid.Row="0" Grid.Column="1">
+                    <TextBlock Text="ID" 
+                           Style="{StaticResource TextBlokStyle1}"
+                           Margin="0">
+                    </TextBlock>
+                <TextBlock Text="{Binding Path=SelectedLot.ID, UpdateSourceTrigger=PropertyChanged}"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Foreground="#717171"
+                           Margin="0"></TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="1">
+                    <TextBlock Text="Название лота"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Margin="0">
+                    </TextBlock>
+                <TextBlock Text="{Binding Path=SelectedLot.Name, UpdateSourceTrigger=PropertyChanged}"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Foreground="#717171"
+                           Margin="0"></TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="1">
+                    <TextBlock Text="Категория"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Margin="0">
+                    </TextBlock>
+                <TextBlock Text="{Binding Path=SelectedLot.Category, UpdateSourceTrigger=PropertyChanged}"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Foreground="#717171"
+                           Margin="0"></TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="3" Grid.Column="1">
+                    <TextBlock Text="Стартовая цена"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Margin="0">
+                    </TextBlock>
+                <TextBlock Text="{Binding Path=SelectedLot.StartPrice, UpdateSourceTrigger=PropertyChanged}"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Foreground="#34CA50"
+                           Margin="0"></TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="4" Grid.Column="0">
+                    <TextBlock Text="Описание"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Margin="10 0 0 0">
+                    </TextBlock>
+                <TextBlock Text="{Binding Path=SelectedLot.Info, UpdateSourceTrigger=PropertyChanged}"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Foreground="#717171"
+                          Margin="10 0 0 0"></TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="4" Grid.Column="1">
+                    <TextBlock Text="Текущая цена"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Margin="0">
+                    </TextBlock>
+                    <TextBlock Text="{Binding Path=SelectedBarga.CurrentPrice, UpdateSourceTrigger=PropertyChanged}"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Foreground="#E11313"
+                               Margin="0"></TextBlock>
+                </StackPanel>
+            <StackPanel Grid.Row="5" Grid.Column="0">
+                    <TextBlock Text="Таймер"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Margin="10 0 0 0">
+                    </TextBlock>
+                        <TextBlock Text="{Binding TimeLeft}"
+                           Style="{StaticResource TextBlokStyle1}"
+                           Foreground="#E11313"
+                           Margin="10 0 0 0"      
+                           ></TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="5" Grid.Column="1">
+                        <Button Content="Повысить ставку" 
+                            Command="{Binding СommandAddNewPrice}"
+                            Style="{DynamicResource ButtonStyle2}"
+                            Height="25"
+                            Width="120"
+                            Margin="0 2 0 2"
+                            HorizontalAlignment="Left"    
+                            >
+                        </Button>
+                <TextBox Text="{Binding Summa, Mode=OneWayToSource}"
+                         Width="120"
+                         Margin="0"
+                         Padding="0"                       
+                         HorizontalAlignment="Left"></TextBox>
+            </StackPanel>
+                <StackPanel Grid.Row="6" Grid.Column="0">
+                    <TextBlock Text="Фамилия владельца"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Margin="10 0 0 0">
+                    </TextBlock>
+                    <TextBlock Text="{Binding LotOwner.Surname}"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Foreground="#717171"
+                              Margin="10 0 0 0"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="7" Grid.Column="0">
+                    <TextBlock Text="E-mail владешьца"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Margin="10 0 0 0">
+                    </TextBlock>
+                    <TextBlock Text="{Binding LotOwner.Email}"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Foreground="#717171"
+                               Margin="10 0 0 0"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="8" Grid.Column="0">
+                    <TextBlock Text="Номер телефона"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Margin="10 0 0 0">
+                    </TextBlock>
+                    <TextBlock Text="{Binding LotOwner.PhoneNumber}"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Foreground="#717171"
+                               Margin="10 0 0 0"></TextBlock>
+                </StackPanel>
+
+                <StackPanel Grid.Row="6" Grid.Column="1">
+                    <TextBlock Text="Победитель аукциона"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Margin="0">
+                    </TextBlock>
+                    <TextBlock Text="{Binding LotWinner.Surname}"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Foreground="#34CA50"
+                               Margin="0"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="7" Grid.Column="1">
+                    <TextBlock Text="E-mail"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Margin="0">
+                    </TextBlock>
+                    <TextBlock Text="{Binding LotWinner.Email}"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Foreground="#717171"
+                               Margin="0"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="8" Grid.Column="1">
+                    <TextBlock Text="Номер телефона"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Margin="0">
+                    </TextBlock>
+                    <TextBlock Text="{Binding LotWinner.PhoneNumber}"
+                               Style="{StaticResource TextBlokStyle1}"
+                               Foreground="#717171"
+                               Margin="0"></TextBlock>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+        </Border>
+        <Button Content="Добавить лот"
+                Grid.Column="1" 
+                Grid.Row="2" 
+                Click="Button_ClickOpenWindow"
+                Style="{DynamicResource ButtonStyle2}"
+                Width="100"
+                Height="30"
+                HorizontalAlignment="Right" 
+                Margin="0 0 30 0">
+        </Button>
+    </Grid>
+</Window>

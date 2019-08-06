@@ -1,0 +1,139 @@
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\bin\Debug\ProjectApp.exe.config
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\bin\Debug\ProjectApp.exe
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\bin\Debug\ProjectApp.pdb
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csprojResolveAssemblyReference.cache
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\AddLotView.g.cs
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\AuthorizationView.g.cs
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\ClientInfoView.g.cs
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\MainWindow.g.cs
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\RegistrationView.g.cs
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\App.g.cs
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\ProjectApp_MarkupCompile.cache
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\ProjectApp_MarkupCompile.lref
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\App.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\Styles\ButtonStyle1.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\Styles\ListScroll.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\Styles\ProfileButtonStyle.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\Styles\SearchButtonStyle.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\Styles\SecondButtonStyle.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\Styles\TextBlockStyle1.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\Styles\TextBoxStyle1.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\AddLotView.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\AuthorizationView.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\ClientInfoView.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\MainWindow.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\RegistrationView.baml
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\ProjectApp.g.resources
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\ProjectApp.Properties.Resources.resources
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.GenerateResource.Cache
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\ProjectApp.exe
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\ProjectApp.pdb
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\AdministrationView.g.cs
+D:\ВТОРОЙ КУРС ВТОРОЙ СЕМЕСТР\ООП\ЛАБЫ\ProjectApp\ProjectApp\obj\Debug\View\AdministrationView.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\bin\Debug\ProjectApp.exe.config
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\bin\Debug\ProjectApp.exe
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\bin\Debug\ProjectApp.pdb
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csprojResolveAssemblyReference.cache
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\ProfileButtonStyle.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AddLotView.g.cs
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AdministrationView.g.cs
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AuthorizationView.g.cs
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\ClientInfoView.g.cs
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\MainWindow.g.cs
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\RegistrationView.g.cs
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\App.g.cs
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp_MarkupCompile.cache
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp_MarkupCompile.lref
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\App.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\ButtonStyle1.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\ListScroll.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\SearchButtonStyle.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\SecondButtonStyle.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\TextBlockStyle1.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\TextBoxStyle1.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AddLotView.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AdministrationView.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AuthorizationView.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\ClientInfoView.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\MainWindow.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\RegistrationView.baml
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.g.resources
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.Properties.Resources.resources
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.GenerateResource.Cache
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.exe
+F:\Готовый курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.pdb
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\bin\Debug\ProjectApp.exe.config
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\bin\Debug\ProjectApp.exe
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\bin\Debug\ProjectApp.pdb
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\ProfileButtonStyle.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AddLotView.g.cs
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AdministrationView.g.cs
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AuthorizationView.g.cs
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\ClientInfoView.g.cs
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\MainWindow.g.cs
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\RegistrationView.g.cs
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\App.g.cs
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp_MarkupCompile.cache
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp_MarkupCompile.lref
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\App.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\ButtonStyle1.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\ListScroll.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\SearchButtonStyle.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\SecondButtonStyle.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\TextBlockStyle1.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\TextBoxStyle1.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AddLotView.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AdministrationView.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AuthorizationView.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\ClientInfoView.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\MainWindow.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\RegistrationView.baml
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.g.resources
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.Properties.Resources.resources
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.GenerateResource.Cache
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.exe
+C:\Users\Алексей\Desktop\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.pdb
+D:\Курсовой проект\ProjectApp\ProjectApp\bin\Debug\ProjectApp.exe.config
+D:\Курсовой проект\ProjectApp\ProjectApp\bin\Debug\ProjectApp.exe
+D:\Курсовой проект\ProjectApp\ProjectApp\bin\Debug\ProjectApp.pdb
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\ProfileButtonStyle.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AddLotView.g.cs
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AdministrationView.g.cs
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AuthorizationView.g.cs
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\ClientInfoView.g.cs
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\MainWindow.g.cs
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\RegistrationView.g.cs
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\App.g.cs
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp_MarkupCompile.cache
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp_MarkupCompile.lref
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\App.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\ButtonStyle1.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\ListScroll.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\SearchButtonStyle.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\SecondButtonStyle.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\TextBlockStyle1.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\Styles\TextBoxStyle1.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AddLotView.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AdministrationView.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\AuthorizationView.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\ClientInfoView.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\MainWindow.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\View\RegistrationView.baml
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.g.resources
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.Properties.Resources.resources
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.GenerateResource.cache
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.exe
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.pdb
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csprojAssemblyReference.cache
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.CoreCompileInputs.cache
+D:\Курсовой проект\ProjectApp\ProjectApp\bin\Debug\EntityFramework.dll
+D:\Курсовой проект\ProjectApp\ProjectApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Курсовой проект\ProjectApp\ProjectApp\bin\Debug\EntityFramework.xml
+D:\Курсовой проект\ProjectApp\ProjectApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Курсовой проект\ProjectApp\ProjectApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\Курсовой проект\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.CopyComplete

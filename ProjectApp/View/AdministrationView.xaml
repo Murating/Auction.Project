@@ -1,0 +1,55 @@
+﻿<Window x:Class="ProjectApp.View.AdministrationView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectApp.View"
+        mc:Ignorable="d"
+        Title="AdministrationView"  Height="600" Width="700">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Header="Лоты" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" >
+            <DataGrid ItemsSource="{Binding Lots}" SelectedItem="{Binding SelectedLot}" Margin="0,0,0,-338"></DataGrid>
+        </GroupBox>
+
+        <GroupBox Header="Пользователи" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2"/>
+
+        <GroupBox Header="Торги" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2"/>
+
+        <GroupBox Header="Редактирование лота" Grid.Column="0" Grid.Row="1">
+            <Grid Margin="11,335,-11,-335">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Button Content="Изменить"
+                        Width="100"
+                        Height="30"
+                        Style="{StaticResource ButtonStyle2}"
+                        Command="{Binding СommandChangeLot}"/>
+
+                <Button Content="Удалить"
+                        Grid.Column="1"
+                        Grid.Row="0"
+                        Width="100"
+                        Height="30"
+                        Style="{StaticResource ButtonStyle2}"
+                        Command="{Binding CommandDeleteLot}"></Button>
+            </Grid>
+        </GroupBox>
+        
+        
+    </Grid>
+</Window>

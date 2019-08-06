@@ -1,0 +1,87 @@
+﻿<Window x:Class="ProjectApp.View.ClientInfoView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectApp.View"
+        xmlns:viewmodel="clr-namespace:ProjectApp.ViewModel"
+        mc:Ignorable="d"
+        Title="ClientInfoView" Height="450" Width="700">
+    <Window.DataContext>
+        <viewmodel:ClientInfoViewModel/>
+    </Window.DataContext>
+    <Window.Background>
+        <ImageBrush ImageSource="/ProjectApp;component/Images/1319.big.jpg"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="0" Grid.Row="0">
+            <TextBlock Text="Логин" Style="{StaticResource TextBlokStyle1}"></TextBlock>
+            <TextBlock Text="{Binding Path=SelectedUser.Login, Mode=TwoWay}" Style="{StaticResource TextBlokStyle1}"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="1">
+            <TextBlock Text="Пароль" Style="{StaticResource TextBlokStyle1}"></TextBlock>
+            <TextBox Text="{Binding Path=SelectedUser.Password, Mode=TwoWay}" Style="{StaticResource TextBoxStyle1}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="2">
+            <TextBlock Text="Имя" Style="{StaticResource TextBlokStyle1}"></TextBlock>
+            <TextBox Text="{Binding Path=SelectedUser.Name, Mode=TwoWay}" Style="{StaticResource TextBoxStyle1}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="3">
+            <TextBlock Text="Фамилия" Style="{StaticResource TextBlokStyle1}"></TextBlock>
+            <TextBox Text="{Binding Path=SelectedUser.Surname, Mode=TwoWay}" Style="{StaticResource TextBoxStyle1}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="4">
+            <TextBlock Text="Страна" Style="{StaticResource TextBlokStyle1}"></TextBlock>
+            <TextBox Text="{Binding Path=SelectedUser.County, Mode=TwoWay}" Style="{StaticResource TextBoxStyle1}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="5">
+            <TextBlock Text="Грод" Style="{StaticResource TextBlokStyle1}"></TextBlock>
+            <TextBox Text="{Binding Path=SelectedUser.City, Mode=TwoWay}" Style="{StaticResource TextBoxStyle1}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="6">
+            <TextBlock Text="E-mail" Style="{StaticResource TextBlokStyle1}"></TextBlock>
+            <TextBox Text="{Binding Path=SelectedUser.Email, Mode=TwoWay}" Style="{StaticResource TextBoxStyle1}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="7">
+            <TextBlock Text="Номер телефона" Style="{StaticResource TextBlokStyle1}"></TextBlock>
+            <TextBox Text="{Binding Path=SelectedUser.PhoneNumber, Mode=TwoWay}" Style="{StaticResource TextBoxStyle1}"></TextBox>
+        </StackPanel>
+
+
+        <Button Content="Изменить данные" Grid.Column="1" Grid.Row="8" 
+               
+                Style="{DynamicResource ButtonStyle2}"
+                Command="{Binding CommandChangeUser}"
+                Height="30"
+                Width="160"
+                FontSize="16"
+                HorizontalAlignment="Right"
+                Margin="0 0 15 0"
+                />
+        <Button Content="Назад" Grid.Column="1" Grid.Row="8" 
+                Style="{DynamicResource SecondButtonStyle}"
+                Height="30"
+                Width="80"
+                FontSize="16"
+                HorizontalAlignment="Left"
+                Margin="0 0 15 0" Click="Button_Click" 
+                />
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ProjectApp.Styles">
+    <Style x:Key="TextBlokStyle1" TargetType="{x:Type TextBlock}">
+        <Setter Property="FontSize" Value="14"></Setter>
+        <Setter Property="Margin" Value=" 30 0 25 5"></Setter>
+        <Setter Property="FontWeight" Value="DemiBold"></Setter>
+    </Style>
+</ResourceDictionary>
